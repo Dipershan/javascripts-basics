@@ -66,6 +66,8 @@ console.log(car);
 //1 delete the object /  property
 
 delete car.owner.b;
+
+const {a , b , ...test} = car;
 // console.log(car);
 
 
@@ -85,7 +87,7 @@ console.log(teacher.old());
 
 
 
-let range = {
+const range = {
     start:10,
     end:20,
     check : function(num) {
