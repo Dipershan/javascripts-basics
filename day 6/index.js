@@ -187,13 +187,19 @@ const getMass = (arr) => {
 //     return accumulator + element ; 
 // }
 
-// const grades = [5,10,4,6,7,8,19,34];
+//  const grades = [5,10,4,6,7,8,19,34];
 
 // const maximum =  grades.reduce();
 // console.log(maximum);
 // const getMax = (accumulator  ,  element) =>{
 //     return Math.max(accumulator , element);
+// };
+// const minimum  =  grades.reduce()
+// console.log(minimum);
+// const getMin  =  (h1  ,  h2) =>{
+//     return Math.min(h1  ,h2);
 // }
+
 
 
 
@@ -211,3 +217,22 @@ const getMass = (arr) => {
 
 
 //map ,  reduce  ,  sort ,  some  ,  every , filter , find
+
+
+//MAP to add new element
+
+let arry  = [12 , 34 , 56]
+
+let ar = arry.map((value) => {
+    return value + 1;
+
+})
+console.log(ar);
+
+
+//Array Filter 
+let eg =  [12 , 34  , 56  ,44 ,3 ,4 ,7];
+const eg2 =  eg.filter((a) => {
+    return  a<10
+})
+console.log(eg2);
